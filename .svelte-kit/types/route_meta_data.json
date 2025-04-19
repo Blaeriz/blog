@@ -1,4 +1,9 @@
 {
 	"/": [],
-	"/blogs": []
+	"/blogs": [
+		"src/routes/blogs/+page.ts"
+	],
+	"/blogs/[slug]": [
+		"src/routes/blogs/[slug]/+page.ts"
+	]
 }
