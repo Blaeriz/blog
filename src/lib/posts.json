@@ -1,0 +1,14 @@
+[
+	{
+		"title": "First Blog Post",
+		"slug": "first-post",
+		"excerpt": "This is a short summary of the first blog post.",
+		"date": "2025-04-19"
+	},
+	{
+		"title": "Second Blog Post",
+		"slug": "second-post",
+		"excerpt": "Here's another quick summary of a post.",
+		"date": "2025-04-18"
+	}
+]
