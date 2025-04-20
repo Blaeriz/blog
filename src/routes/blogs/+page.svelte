@@ -16,7 +16,7 @@
 </div>
 <div class="mx-auto flex w-full max-w-[900px] flex-col p-4 items-center py-2">
 	<!-- HEADER -->
-	<h1 class="text-6xl uppercase tracking-wider py-2">Latest Posts</h1>
+	<h1 class="text-xl/8 md:text-5xl uppercase tracking-wider py-2">Latest Posts</h1>
 
 	<!-- POSTS -->
 	<div class="flex flex-col py-2 gap-y-2 w-full items-center font-vt323">
@@ -26,20 +26,20 @@
 			>
 				<!-- Header -->
 				<div class="flex flex-col space-y-4">
-					<p class="text-2xl text-white/50">{post.date}</p>
-					<h3 class="text-5xl text-whit font-extrabold tracking-wider">{post.title}</h3>
+					<p class="text-lg md:text-2xl text-white/50">{post.date}</p>
+					<h3 class="text-2xl md:text-5xl text-whit font-extrabold tracking-wider">{post.title}</h3>
 				</div>
 
 				<!-- Content -->
 				<div class="pt-4 text-white">
-					<p class="mb-4 text-4xl">{post.topic}</p>
+					<p class="mb-4 text-2xl md:text-4xl">{post.topic}</p>
 				</div>
 
 				<!-- Footer -->
 				<div class="flex items-center pt-4">
 					<a
 						href={`/blogs/${post.slug}`}
-						class="text-2xl text-white underline hover:text-blue-600 transition"
+						class="text-lg md:text-2xl text-white underline hover:text-blue-600 transition"
 					>
 						Read more →
 					</a>
