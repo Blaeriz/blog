@@ -15,8 +15,8 @@
 </div>
 <div class="mx-auto flex w-full max-w-[900px] flex-col p-4 items-center py-20">
 	<!-- HEADER -->
-	<h1 class="text-6xl uppercase tracking-wider py-2">
+	<h1 class="text-xl/8 md:text-5xl uppercase tracking-wider py-2">
 		I made this blog simply to keep track of my progress and kinda just put my thoughts out there.
 	</h1>
-	<h1 class="text-6xl uppercase tracking-wider py-2">¯\_(ツ)_/¯</h1>
+	<h1 class="text-xl/8 md:text-5xl uppercase tracking-wider py-2">¯\_(ツ)_/¯</h1>
 </div>
