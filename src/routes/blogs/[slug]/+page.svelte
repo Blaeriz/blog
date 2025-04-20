@@ -7,15 +7,17 @@
 <article class="max-w-[1200px] mx-auto p-8 text-white rounded-xl shadow-xl mb-12 bg-[#141414]">
 	<div class="border-b border-white/50">
 		<!-- Post Title -->
-		<h1 class="text-7xl tracking-wider font-extrabold text-gradient mb-4 text-left">
+		<h1 class="text-3xl/6 md:text-7xl tracking-wider font-extrabold text-gradient mb-4 text-left">
 			{post.title}
 		</h1>
 
 		<!-- Post Date -->
-		<p class="text-3xl tracking-wide text-gray-400 text-right mb-6">{post.date}</p>
+		<p class="text-xl/6 md:text-3xl tracking-wide text-gray-400 text-right mb-6">{post.date}</p>
 	</div>
 
 	<!-- Excerpt -->
-	<p class="text-5xl text-gray-300 mb-6 leading-relaxed tracking-tight">{post.content}</p>
-	<p class="text-5xl text-gray-300 mt-6 tracking-wide text-right">- Hppingle</p>
+	<p class="text-xl/8 md:text-3xl text-gray-300 mb-6 leading-relaxed tracking-tight">
+		{post.content}
+	</p>
+	<p class="text-xl/8 md:text-3xl text-gray-300 mt-6 tracking-wide text-right">- Hppingle</p>
 </article>

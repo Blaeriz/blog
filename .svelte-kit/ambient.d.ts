@@ -28,6 +28,7 @@
 declare module '$env/static/private' {
 	export const SHELL: string;
 	export const npm_command: string;
+	export const WINDOWID: string;
 	export const npm_config_userconfig: string;
 	export const COLORTERM: string;
 	export const HYPRLAND_CMD: string;
@@ -42,7 +43,6 @@ declare module '$env/static/private' {
 	export const npm_config_local_prefix: string;
 	export const LIBVA_DRIVER_NAME: string;
 	export const DESKTOP_SESSION: string;
-	export const HL_INITIAL_WORKSPACE_TOKEN: string;
 	export const NO_AT_BRIDGE: string;
 	export const npm_config_globalconfig: string;
 	export const XCURSOR_SIZE: string;
@@ -69,6 +69,7 @@ declare module '$env/static/private' {
 	export const INIT_CWD: string;
 	export const CHROME_DESKTOP: string;
 	export const QT_QPA_PLATFORM: string;
+	export const ALACRITTY_SOCKET: string;
 	export const npm_lifecycle_script: string;
 	export const NVM_DIR: string;
 	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
@@ -99,6 +100,7 @@ declare module '$env/static/private' {
 	export const PATH: string;
 	export const __GLX_VENDOR_LIBRARY_NAME: string;
 	export const npm_config_node_gyp: string;
+	export const ALACRITTY_LOG: string;
 	export const GDMSESSION: string;
 	export const GBM_BACKEND: string;
 	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
@@ -106,10 +108,10 @@ declare module '$env/static/private' {
 	export const npm_config_global_prefix: string;
 	export const MAIL: string;
 	export const NVM_BIN: string;
-	export const GIO_LAUNCHED_DESKTOP_FILE_PID: string;
+	export const ALACRITTY_WINDOW_ID: string;
 	export const npm_node_execpath: string;
 	export const npm_config_engine_strict: string;
-	export const GIO_LAUNCHED_DESKTOP_FILE: string;
+	export const OLDPWD: string;
 	export const HYPRCURSOR_SIZE: string;
 	export const TERM_PROGRAM: string;
 	export const NODE_ENV: string;
@@ -146,6 +148,7 @@ declare module '$env/dynamic/private' {
 	export const env: {
 		SHELL: string;
 		npm_command: string;
+		WINDOWID: string;
 		npm_config_userconfig: string;
 		COLORTERM: string;
 		HYPRLAND_CMD: string;
@@ -160,7 +163,6 @@ declare module '$env/dynamic/private' {
 		npm_config_local_prefix: string;
 		LIBVA_DRIVER_NAME: string;
 		DESKTOP_SESSION: string;
-		HL_INITIAL_WORKSPACE_TOKEN: string;
 		NO_AT_BRIDGE: string;
 		npm_config_globalconfig: string;
 		XCURSOR_SIZE: string;
@@ -187,6 +189,7 @@ declare module '$env/dynamic/private' {
 		INIT_CWD: string;
 		CHROME_DESKTOP: string;
 		QT_QPA_PLATFORM: string;
+		ALACRITTY_SOCKET: string;
 		npm_lifecycle_script: string;
 		NVM_DIR: string;
 		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
@@ -217,6 +220,7 @@ declare module '$env/dynamic/private' {
 		PATH: string;
 		__GLX_VENDOR_LIBRARY_NAME: string;
 		npm_config_node_gyp: string;
+		ALACRITTY_LOG: string;
 		GDMSESSION: string;
 		GBM_BACKEND: string;
 		ORIGINAL_XDG_CURRENT_DESKTOP: string;
@@ -224,10 +228,10 @@ declare module '$env/dynamic/private' {
 		npm_config_global_prefix: string;
 		MAIL: string;
 		NVM_BIN: string;
-		GIO_LAUNCHED_DESKTOP_FILE_PID: string;
+		ALACRITTY_WINDOW_ID: string;
 		npm_node_execpath: string;
 		npm_config_engine_strict: string;
-		GIO_LAUNCHED_DESKTOP_FILE: string;
+		OLDPWD: string;
 		HYPRCURSOR_SIZE: string;
 		TERM_PROGRAM: string;
 		NODE_ENV: string;
