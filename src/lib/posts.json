@@ -2,8 +2,9 @@
 	{
 		"title": "1",
 		"slug": "1",
-		"topic": "This is a short summary of the first blog post.",
+		"topic": "Setting the tone.",
 		"date": "20-04-2025",
-		"content": "I like tech and im making this blog just to document my progress. I constantly learn about Cybersecurity, Embedded Systems, Low Level Programming and a bit of FullStack."
+		"content": "I like tech and I am making this blog just to document my progress. I constantly learn about Cybersecurity, Embedded Systems, Low Level Programming and a bit of FullStack.",
+		"word_count": 28
 	}
 ]

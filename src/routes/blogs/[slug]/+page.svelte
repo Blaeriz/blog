@@ -7,9 +7,11 @@
 <article class="max-w-[1200px] mx-auto p-8 text-white rounded-xl shadow-xl mb-12 bg-[#141414]">
 	<div class="border-b border-white/50">
 		<!-- Post Title -->
-		<h1 class="text-3xl/6 md:text-7xl tracking-wider font-extrabold text-gradient mb-4 text-left">
-			{post.title}
-		</h1>
+		<div class="flex flex-row justify-between">
+			<h1 class="text-3xl/6 md:text-7xl tracking-wider font-extrabold text-gradient mb-4 text-left">
+				{post.title}
+			</h1>
+		</div>
 
 		<!-- Post Date -->
 		<p class="text-xl/6 md:text-3xl tracking-wide text-gray-400 text-right mb-6">{post.date}</p>

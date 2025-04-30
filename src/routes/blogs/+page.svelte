@@ -36,13 +36,16 @@
 				</div>
 
 				<!-- Footer -->
-				<div class="flex items-center pt-4">
+				<div class="flex flex-row justify-between pt-4">
 					<a
 						href={`/blogs/${post.slug}`}
 						class="text-lg md:text-2xl text-white underline hover:text-blue-600 transition"
 					>
 						Read more →
 					</a>
+					<p class="text-lg md:text-2xl text-white/50">
+						Read Time: {post.word_count / 200}m
+					</p>
 				</div>
 			</div>
 		{/each}

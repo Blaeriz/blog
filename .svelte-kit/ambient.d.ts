@@ -34,7 +34,6 @@ declare module '$env/static/private' {
 	export const HYPRLAND_CMD: string;
 	export const npm_config_cache: string;
 	export const NVM_INC: string;
-	export const TERM_PROGRAM_VERSION: string;
 	export const XDG_BACKEND: string;
 	export const __EGL_VENDOR_LIBRARY_FILENAMES: string;
 	export const NODE: string;
@@ -43,7 +42,7 @@ declare module '$env/static/private' {
 	export const npm_config_local_prefix: string;
 	export const LIBVA_DRIVER_NAME: string;
 	export const DESKTOP_SESSION: string;
-	export const NO_AT_BRIDGE: string;
+	export const HL_INITIAL_WORKSPACE_TOKEN: string;
 	export const npm_config_globalconfig: string;
 	export const XCURSOR_SIZE: string;
 	export const EDITOR: string;
@@ -55,7 +54,6 @@ declare module '$env/static/private' {
 	export const XDG_SESSION_TYPE: string;
 	export const npm_config_init_module: string;
 	export const _: string;
-	export const VSCODE_GIT_ASKPASS_NODE: string;
 	export const MOTD_SHOWN: string;
 	export const GDM_LANG: string;
 	export const HOME: string;
@@ -65,14 +63,11 @@ declare module '$env/static/private' {
 	export const XDG_CURRENT_DESKTOP: string;
 	export const npm_package_version: string;
 	export const WAYLAND_DISPLAY: string;
-	export const GIT_ASKPASS: string;
 	export const INIT_CWD: string;
-	export const CHROME_DESKTOP: string;
 	export const QT_QPA_PLATFORM: string;
 	export const ALACRITTY_SOCKET: string;
 	export const npm_lifecycle_script: string;
 	export const NVM_DIR: string;
-	export const VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 	export const npm_config_npm_version: string;
 	export const XDG_SESSION_CLASS: string;
 	export const ANDROID_HOME: string;
@@ -80,22 +75,20 @@ declare module '$env/static/private' {
 	export const npm_package_name: string;
 	export const npm_config_prefix: string;
 	export const USER: string;
-	export const VSCODE_GIT_IPC_HANDLE: string;
 	export const HYPRLAND_INSTANCE_SIGNATURE: string;
 	export const DISPLAY: string;
 	export const npm_lifecycle_event: string;
 	export const SHLVL: string;
 	export const NVM_CD_FLAGS: string;
 	export const MOZ_ENABLE_WAYLAND: string;
+	export const wm: string;
 	export const XDG_VTNR: string;
 	export const XDG_SESSION_ID: string;
 	export const npm_config_user_agent: string;
 	export const npm_execpath: string;
 	export const XDG_RUNTIME_DIR: string;
 	export const npm_package_json: string;
-	export const VSCODE_GIT_ASKPASS_MAIN: string;
 	export const XDG_DATA_DIRS: string;
-	export const GDK_BACKEND: string;
 	export const npm_config_noproxy: string;
 	export const PATH: string;
 	export const __GLX_VENDOR_LIBRARY_NAME: string;
@@ -103,7 +96,6 @@ declare module '$env/static/private' {
 	export const ALACRITTY_LOG: string;
 	export const GDMSESSION: string;
 	export const GBM_BACKEND: string;
-	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const DBUS_SESSION_BUS_ADDRESS: string;
 	export const npm_config_global_prefix: string;
 	export const MAIL: string;
@@ -113,7 +105,6 @@ declare module '$env/static/private' {
 	export const npm_config_engine_strict: string;
 	export const OLDPWD: string;
 	export const HYPRCURSOR_SIZE: string;
-	export const TERM_PROGRAM: string;
 	export const NODE_ENV: string;
 }
 
@@ -154,7 +145,6 @@ declare module '$env/dynamic/private' {
 		HYPRLAND_CMD: string;
 		npm_config_cache: string;
 		NVM_INC: string;
-		TERM_PROGRAM_VERSION: string;
 		XDG_BACKEND: string;
 		__EGL_VENDOR_LIBRARY_FILENAMES: string;
 		NODE: string;
@@ -163,7 +153,7 @@ declare module '$env/dynamic/private' {
 		npm_config_local_prefix: string;
 		LIBVA_DRIVER_NAME: string;
 		DESKTOP_SESSION: string;
-		NO_AT_BRIDGE: string;
+		HL_INITIAL_WORKSPACE_TOKEN: string;
 		npm_config_globalconfig: string;
 		XCURSOR_SIZE: string;
 		EDITOR: string;
@@ -175,7 +165,6 @@ declare module '$env/dynamic/private' {
 		XDG_SESSION_TYPE: string;
 		npm_config_init_module: string;
 		_: string;
-		VSCODE_GIT_ASKPASS_NODE: string;
 		MOTD_SHOWN: string;
 		GDM_LANG: string;
 		HOME: string;
@@ -185,14 +174,11 @@ declare module '$env/dynamic/private' {
 		XDG_CURRENT_DESKTOP: string;
 		npm_package_version: string;
 		WAYLAND_DISPLAY: string;
-		GIT_ASKPASS: string;
 		INIT_CWD: string;
-		CHROME_DESKTOP: string;
 		QT_QPA_PLATFORM: string;
 		ALACRITTY_SOCKET: string;
 		npm_lifecycle_script: string;
 		NVM_DIR: string;
-		VSCODE_GIT_ASKPASS_EXTRA_ARGS: string;
 		npm_config_npm_version: string;
 		XDG_SESSION_CLASS: string;
 		ANDROID_HOME: string;
@@ -200,22 +186,20 @@ declare module '$env/dynamic/private' {
 		npm_package_name: string;
 		npm_config_prefix: string;
 		USER: string;
-		VSCODE_GIT_IPC_HANDLE: string;
 		HYPRLAND_INSTANCE_SIGNATURE: string;
 		DISPLAY: string;
 		npm_lifecycle_event: string;
 		SHLVL: string;
 		NVM_CD_FLAGS: string;
 		MOZ_ENABLE_WAYLAND: string;
+		wm: string;
 		XDG_VTNR: string;
 		XDG_SESSION_ID: string;
 		npm_config_user_agent: string;
 		npm_execpath: string;
 		XDG_RUNTIME_DIR: string;
 		npm_package_json: string;
-		VSCODE_GIT_ASKPASS_MAIN: string;
 		XDG_DATA_DIRS: string;
-		GDK_BACKEND: string;
 		npm_config_noproxy: string;
 		PATH: string;
 		__GLX_VENDOR_LIBRARY_NAME: string;
@@ -223,7 +207,6 @@ declare module '$env/dynamic/private' {
 		ALACRITTY_LOG: string;
 		GDMSESSION: string;
 		GBM_BACKEND: string;
-		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		DBUS_SESSION_BUS_ADDRESS: string;
 		npm_config_global_prefix: string;
 		MAIL: string;
@@ -233,7 +216,6 @@ declare module '$env/dynamic/private' {
 		npm_config_engine_strict: string;
 		OLDPWD: string;
 		HYPRCURSOR_SIZE: string;
-		TERM_PROGRAM: string;
 		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
