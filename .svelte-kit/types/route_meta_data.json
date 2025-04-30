@@ -1,5 +1,6 @@
 {
 	"/": [],
+	"/about": [],
 	"/blogs": [
 		"src/routes/blogs/+page.ts"
 	],

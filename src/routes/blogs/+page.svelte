@@ -7,10 +7,10 @@
 	<div
 		class="max-w-[1200px] w-full flex flex-row items-center justify-between align-middle mx-auto px-2"
 	>
-		<p class="text-5xl font-extrabold uppercase font-vt323">Hppingle</p>
+		<a href="/" class="text-5xl font-extrabold uppercase font-vt323">Hppingle</a>
 		<div class="flex flex-row space-x-4 text-3xl">
-			<a href="/" class="uppercase hover:underline">Home</a>
-			<a href="/" class="uppercase hover:underline">About</a>
+			<a href="/" class="uppercase text-blue-600 hover:underline">Blogs</a>
+			<a href="/about" class="uppercase hover:underline">About</a>
 		</div>
 	</div>
 </div>
