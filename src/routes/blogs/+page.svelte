@@ -26,7 +26,12 @@
 			>
 				<!-- Header -->
 				<div class="flex flex-col space-y-4">
-					<p class="text-lg md:text-2xl text-white/50">{post.date}</p>
+					<div class="flex flex-row justify-between">
+						<p class="text-lg md:text-2xl text-white/50">{post.date}</p>
+						<p class="text-lg md:text-2xl text-white/50">
+							Read Time: {post.word_count / 200}m
+						</p>
+					</div>
 					<h3 class="text-2xl md:text-5xl text-whit font-extrabold tracking-wider">{post.title}</h3>
 				</div>
 
@@ -43,9 +48,11 @@
 					>
 						Read more →
 					</a>
-					<p class="text-lg md:text-2xl text-white/50">
-						Read Time: {post.word_count / 200}m
-					</p>
+					{#if post.tags && post.tags.length > 0}
+						<p class="text-lg md:text-2xl text-white/50 mt-2 md:mt-0">
+							{post.tags.join(', ')}
+						</p>
+					{/if}
 				</div>
 			</div>
 		{/each}
