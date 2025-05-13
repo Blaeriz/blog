@@ -20,7 +20,7 @@
 
 	<!-- POSTS -->
 	<div class="flex flex-col py-2 gap-y-2 w-full items-center font-vt323">
-		{#each data.posts as post}
+		{#each [...data.posts].reverse() as post}
 			<div
 				class="max-w-3xl w-full rounded-none border border-white/50 p-4 shadow-none hover:shadow-md transition flex flex-col"
 			>
@@ -37,7 +37,7 @@
 
 				<!-- Content -->
 				<div class="pt-4 text-white">
-					<p class="mb-4 text-2xl md:text-4xl">{post.topic}</p>
+					<p class="mb-4 text-2xl md:text-4xl text-white/80">{post.topic}</p>
 				</div>
 
 				<!-- Footer -->

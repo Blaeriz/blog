@@ -6,3 +6,13 @@
 @theme {
 	--font-vt323: 'VT323', 'monospace';
 }
+
+.prose a {
+    text-decoration: underline;
+}
+
+.prose a:hover {
+    color: #2563eb; /* Tailwind's blue-600 */
+    text-decoration: underline;
+	transition: 100ms;
+}

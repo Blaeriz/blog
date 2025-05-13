@@ -22,7 +22,7 @@
 
 	<!-- Excerpt -->
 	<div
-		class="prose prose-invert prose-a:text-blue-400 hover:prose-a:text-blue-600 prose-a:font-semibold prose-a:no-underline hover:prose-a:underline transition-colors duration-200 max-w-none text-xl/8 md:text-3xl mb-6 leading-relaxed tracking-tight"
+		class="prose prose-invert prose-a:text-whiteprose-a:font-semibold prose-a:no-underline transition-colors duration-200 max-w-none text-xl/8 md:text-3xl mb-6 leading-relaxed tracking-tight"
 	>
 		{@html formattedContent}
 	</div>
